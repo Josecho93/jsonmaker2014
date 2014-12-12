@@ -17,9 +17,9 @@ $(document).ready(function () {
         async: false,
         dataType: "json",
         success: function (source) {
-            /*res += source.json;*/
+             /* res += source.json; */
              $('#data').add(source.Control);
-            /* $('#data').append(source.Control); */
+             $('#data').append(source.Control); 
         }
         
     });
