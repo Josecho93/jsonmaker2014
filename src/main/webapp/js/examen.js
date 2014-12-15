@@ -10,7 +10,6 @@ var path = 'request.getContextPath()';
 $(document).ready(function () {
   
   
-  
   $.ajax({
         url: path,
         type: "GET",
