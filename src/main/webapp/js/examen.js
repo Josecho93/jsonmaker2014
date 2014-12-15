@@ -18,7 +18,7 @@ $(document).ready(function () {
         success: function (source) {
              /* res += source.json; */
              $('#data').add(source.Control);
-             $('#data').append(source.Control); 
+             /* $('#data').append(source.Control); */ 
         }
         
     });
